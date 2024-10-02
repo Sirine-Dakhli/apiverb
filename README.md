@@ -25,33 +25,3 @@ Lancer l'application :
 bash
 Copier le code
 ng serve
-Points de terminaison utilisés
-Inscription et Connexion :
-
-URL : https://french-verbs-fall-2023-app-ramym.ondigitalocean.app/v0/users/login
-Méthode : POST
-Headers : x-access-token
-Body :
-json
-Copier le code
-{
-  "email": "votre-email",
-  "password": "votre-mot-de-passe"
-}
-Récupération d'un verbe spécifique :
-
-URL : https://french-verbs-fall-2023-app-ramym.ondigitalocean.app/v0/verbs/
-Méthode : POST
-Body :
-json
-Copier le code
-{
-  "verb": "habiter"
-}
-Verbes aléatoires :
-
-URL : https://french-verbs-fall-2023-app-ramym.ondigitalocean.app/v0/verbs/random
-Méthode : GET
-Headers : x-access-token
-Personnalisation
-L'interface utilisateur a été adaptée pour offrir une expérience fluide et interactive aux utilisateurs. Vous pouvez modifier les fichiers src/app pour adapter les couleurs, les images, et les styles à vos besoins.
